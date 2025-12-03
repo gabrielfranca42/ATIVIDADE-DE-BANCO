@@ -1,0 +1,32 @@
+# Ignorar dependências
+node_modules/
+
+# Ignorar logs
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Ignorar variáveis de ambiente
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignorar builds e caches
+dist/
+build/
+.cache/
+.tmp/
+
+# Ignorar arquivos do editor
+.vscode/
+.idea/
+
+# Ignorar arquivos SO
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos de lock (opcional)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
